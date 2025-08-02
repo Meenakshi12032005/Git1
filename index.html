@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meenakshi| Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <button id="toggle-theme">🌙 Toggle Theme</button>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <div class="logo">Hi everyone,</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="home">
+    <div class="container">
+      <h1>Meenakshi</h1>
+      <p>Aspiring Web Developer & AI Enthusiast If you want known more just download my resume. I want like to share....</p>
+      <a href="My Resume.pdf" class="btn" download>
+  Download Resume <i class= "fas fa-circle-down"></i>
+</a>
+
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about section-hover" id="about">
+    <div class="container">
+      <img src="images/profile.png.jpeg"/>
+      <div>
+        <h2>About Me</h2>
+        <p>
+  I’m a Computer Science Engineering student with a deep interest in Robotics and the evolving field of Artificial Intelligence and Machine Learning (AI/ML). I'm fascinated by how AI-powered robots will reshape the world by 2050—just like how mobile phones have become essential today. Inspired by this vision, I aim to contribute something meaningful and innovative to the world that benefits everyone and stands out as truly original.
+</p>
+
+
+<p>
+  Every day, I push myself to learn something new that sharpens my knowledge and strengthens my future. While the journey includes challenges and setbacks, helps me regain clarity,  Dance is key to helps me overcome any situation to make me joy, and confidence—it’s my personal key to transforming a difficult day into something insightful and inspiring.
+</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects section-hover" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>Intern Portal</h3>
+          <p>A full-stack intern management system built using React and Node.js.</p>
+        </div>
+        <div class="card">
+          <h3>Railway Reservation</h3>
+          <p>Online reservation system with user login, train info, and SQL backend.</p>
+        </div>
+        <div class="card">
+          <h3>AI Chatbot</h3>
+          <p>Smart AI chatbot built using Python and NLP techniques for college helpdesk.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer id="contact">
+    <div class="container">
+      <p>📧 meenakshi12032005@gmail.com</p>
+      <div class="social-icons">
+        <a href="https://github.com/Meenakshi12032005" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.kaggle.com/m12032005" target="_blank" title="Kaggle"><i class="fab fa-kaggle"></i></a>
+        <a href="https://www.linkedin.com/in/meenakshi-kumar-aaa843305/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Meenakshi12032005" target="_blank" title="github"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Theme toggle
+    const toggleBtn = document.getElementById("toggle-theme");
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("light-mode");
+    });
+
+    // Hamburger toggle
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
