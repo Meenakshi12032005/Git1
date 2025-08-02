@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This site highlights my projects, skills, resume, and interests in AI/ML and Robotics.
 
-🔗 **Live Site**: [View Portfolio)https://my-techfolio.netlify.app/
+🔗 **Live Site**: https://my-techfolio.netlify.app/
 
 ## 📌 About Me
 
