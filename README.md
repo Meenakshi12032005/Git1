@@ -27,3 +27,21 @@ I am a Computer Science Engineering student at Saranathan College of Engineering
 
 ## 📂 Folder Structure
 
+📁 My Portfolio/
+├── index.html
+├── style.css
+├── resume.pdf
+└── images/
+└── profile.jpg
+
+
+## 📬 Contact
+
+- **Email**: meenakshi12032005@example.com  
+- **GitHub**: https://github.com/Meenakshi12032005
+- **LinkedIn**: https://www.linkedin.com/in/meenakshi-kumar-aaa843305
+
+> Made with 💻, ☕, and curiosity.
+
+
+
